@@ -1,0 +1,89 @@
+{
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 0.9775280898876404,
+    "recall": 0.9775280898876404,
+    "f1-score": 0.9775280898876404,
+    "support": 89,
+    "confused_with": {
+      "search_provider": 2
+    }
+  },
+  "search_provider": {
+    "precision": 0.9692307692307692,
+    "recall": 0.9692307692307692,
+    "f1-score": 0.9692307692307692,
+    "support": 65,
+    "confused_with": {
+      "inform": 2
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "thanks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "accuracy": 0.9851301115241635,
+  "macro avg": {
+    "precision": 0.994675885911841,
+    "recall": 0.994675885911841,
+    "f1-score": 0.994675885911841,
+    "support": 269
+  },
+  "weighted avg": {
+    "precision": 0.9851301115241635,
+    "recall": 0.9851301115241635,
+    "f1-score": 0.9851301115241635,
+    "support": 269
+  }
+}

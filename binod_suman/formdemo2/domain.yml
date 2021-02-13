@@ -1,0 +1,67 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - ssn_entry
+  - subject_entry
+  - name_entry
+  - admission_enquiry
+  - thankyou
+
+entities:
+ - name
+ - ssn
+ - subject
+
+slots:
+ name:
+  type: unfeaturized
+ ssn:
+  type: unfeaturized
+ subject_code: 
+  type: unfeaturized
+
+forms:
+ - admission_form
+
+
+responses:
+  utter_greet:
+  - text: "Welcome to Admission department, how can I help you?"
+
+  utter_ask_name:
+  - text: "Your name please?"
+
+  utter_ask_subject_code:
+  - text: "Which subject you want take admission?"
+
+  utter_ask_ssn:
+  - text: "Please enter your social security number (ssn)!"
+
+  utter_submit:
+  - text: "All done!"
+  
+  utter_ask_feedback:
+  - text: "please give your feedback on your experience so far."
+
+  utter_goodbye:
+  - text: "Bye"
+  
+  utter_slots_values:
+  - text: "I am going to take your PhD addmission request with these form values:\n
+                   - name: {name}\n
+                   - ssn: {ssn}\n
+                   - subject: {subject_code}"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+
+
+
+
+
+

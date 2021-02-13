@@ -1,0 +1,43 @@
+intents:
+  - greet
+  - goodbye
+  - name_entry
+  - country_entry
+
+entities:
+  - name
+  - country
+
+actions:
+  - action_hello_world
+
+
+slots:
+  name:
+    type: text
+  country:
+    type: text
+  leader:
+    type: text
+
+
+responses:
+  utter_greet:
+  - text: "Please give me your name!"
+  
+  utter_enter_country:
+  - text: "Please enter your country name!"
+
+  utter_show_name_country:
+  - text: "Your name is {name} and belongs to {country}"
+
+  utter_show_name_country_leader:
+  - text:"Your name is {name} and belongs to {country} and leader is {leader}. "
+
+  utter_goodbye:
+  - text: "Bye"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

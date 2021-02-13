@@ -1,0 +1,130 @@
+[
+  {
+    "text": "What channels of communication does rasa support?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.976784884929657
+    }
+  },
+  {
+    "text": "what channels do you support?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9874167442321777
+    }
+  },
+  {
+    "text": "what chat channels does rasa uses",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9751603007316589
+    }
+  },
+  {
+    "text": "channels supported by Rasa",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8642589449882507
+    }
+  },
+  {
+    "text": "which messaging channels does rasa support?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9558895230293274
+    }
+  },
+  {
+    "text": "what language does rasa support?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.6572027802467346
+    }
+  },
+  {
+    "text": "which language do you support?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7922775149345398
+    }
+  },
+  {
+    "text": "which languages supports rasa",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8175016045570374
+    }
+  },
+  {
+    "text": "can I use rasa also for another laguage?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7752846479415894
+    }
+  },
+  {
+    "text": "languages supported",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7257493138313293
+    }
+  },
+  {
+    "text": "I want information about rasa x",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5144900679588318
+    }
+  },
+  {
+    "text": "i want to learn more about Rasa X",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.646321177482605
+    }
+  },
+  {
+    "text": "what is rasa x?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.8328518271446228
+    }
+  },
+  {
+    "text": "Can you tell me about rasa x?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6011135578155518
+    }
+  },
+  {
+    "text": "Tell me about rasa x",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.8829363584518433
+    }
+  },
+  {
+    "text": "tell me what is rasa x",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.9469023942947388
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "text": "nursing home",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "search_provider",
+      "confidence": 0.5404003262519836
+    }
+  },
+  {
+    "text": "a nursing home",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "search_provider",
+      "confidence": 0.5404003262519836
+    }
+  },
+  {
+    "text": "hospital",
+    "intent": "search_provider",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6339503526687622
+    }
+  },
+  {
+    "text": "home health agency",
+    "intent": "search_provider",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4963626265525818
+    }
+  }
+]
